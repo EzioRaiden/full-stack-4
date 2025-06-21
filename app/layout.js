@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
         </div>
         <div>
           <p>Facing Issues? <a>Get help</a></p>
-          <p>Suggestions for improvement? <a href="https://mail.google.com/mail/?view=cm&to=sourarghyade@gmail.com&subject=Hello&body=I saw your website." target="_blank">Share feedback!</a>
+          <p>Suggestions for improvement? <a href="https://mail.google.com/mail/?view=cm&to=sourarghyade@gmail.com&subject=Hello&body=I saw your website." target="_blank">Share feedback</a>
           </p>
           <div>
             <Link href={'/privacy'}>Privacy Policy</Link>
