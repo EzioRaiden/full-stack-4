@@ -32,13 +32,13 @@ export default function RootLayout({ children }) {
           <div>
             <h4>Expenny</h4>
             <p>|</p>
-            <button disabled>Install app</button>
+            <button title="App coming soon!" disabled >Install app</button>
           </div>
           <p className="copyright">© Copyright 2025-2026, Sourarghya De.<br/>All rights reserved.</p>
         </div>
         <div>
-          <p>Facing Issues? <a>Get help</a></p>
-          <p>Suggestions for improvement? <a href="https://mail.google.com/mail/?view=cm&to=sourarghyade@gmail.com&subject=Hello&body=I saw your website." target="_blank">Share feedback</a>
+          <p>Facing Issues? <a href="https://mail.google.com/mail/?view=cm&to=sourarghyade@gmail.com" target="_blank">Get help</a></p>
+          <p>Suggestions for improvement? <a href="https://mail.google.com/mail/?view=cm&to=sourarghyade@gmail.com" target="_blank">Share feedback</a>
           </p>
           <div>
             <Link href={'/privacy'}>Privacy Policy</Link>
